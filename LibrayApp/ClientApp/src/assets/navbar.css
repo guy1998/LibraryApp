@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Poppins:ital,wght@0,500;1,600&family=Righteous&display=swap');
+
+.mainNavigation{
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    background-color: skyblue;
+    color: white;
+    font-family: Poppins;
+    position: fixed;
+    z-index: 1;
+}
+
+.navList{
+    display: flex;
+    list-style-type: none;
+    width: 80vw;
+    align-items: center;
+    justify-content: end;
+}
+
+.custom-heading{
+    width: 33vw;
+    color: skyblue;
+    background-color: skyblue;
+    height: inherit;
+    /* padding-top: 2vh; */
+    padding-left: 6vw;
+    border-bottom: 60px solid white;
+    border-right: 25px solid transparent;
+} 
+
+.navItem{
+    margin: 3vh 3vw 0 0;
+    align-items: center;
+    border-radius: 10px;
+    min-width: 7vw;
+    height: 6vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.3s;
+}
+
+.navItem:hover{
+    cursor: pointer;
+    background-color: white;
+    color: skyblue;
+}

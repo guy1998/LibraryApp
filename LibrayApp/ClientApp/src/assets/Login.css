@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Poppins:ital,wght@0,500;1,600&family=Righteous&display=swap');
+
+.form{
+    margin: 10vh 0 0 8vw;
+    width: 30vw;
+    border: 5px solid white;
+    heightbox-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);: 80vh;
+    
+    padding: 5vh 0 0 0;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: Poppins;
+}
+
+.fields{
+    margin: 10vh 0 0 4.5vw;
+    /* padding-left: 4vw; */
+    width: 20vw;
+}
+
+.sufields{
+    margin: 2vh 0 0 4.5vw;
+    /* padding-left: 4vw; */
+    width: 20vw;
+}
+
+h1{
+    color: skyblue;
+}
+
+
+.inputDiv{
+    width: 20vw;
+    border: 3px solid skyblue;
+    border-radius: 10px;
+    color: skyblue;
+    font-weight: bold;
+}
+
+input{
+    background-color: transparent;
+}
+
+.button{
+    width: 16vw;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 12vh;
+    font-weight: bold;
+    border: 3px solid skyblue;
+    color: skyblue;
+    background-color: white;
+    transition: all ease-in-out 0.3s;
+    border-radius: 5px;
+}
+
+.button2{
+    width: 16vw;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight: bold;
+    border: 3px solid skyblue;
+    color: skyblue;
+    background-color: white;
+    transition: all ease-in-out 0.3s;
+    border-radius: 5px;
+}
+
+.button:hover,.button2:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+u{
+    color: skyblue;
+}
+
+u:hover{
+    cursor: pointer;
+}
+

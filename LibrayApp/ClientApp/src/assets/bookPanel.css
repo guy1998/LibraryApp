@@ -1,0 +1,18 @@
+.bookDiv{
+    background-color: #56d156;
+    border: 20px solid green;
+    border-radius: 20px;
+    width: 60vw;
+    height: 45vh;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    margin: 2vh 0 0 2.5vw;
+    transition: all ease-in-out 0.3s;
+}
+
+.bookDiv:hover{
+    cursor: pointer;
+    transform: scale(1.035);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}

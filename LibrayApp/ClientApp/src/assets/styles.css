@@ -1,0 +1,9 @@
+/* .appContainer{
+    overflow: auto; 
+} */
+
+body{
+    background-image: url("../images/books.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
