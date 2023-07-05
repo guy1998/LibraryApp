@@ -1,0 +1,7 @@
+Warning: use of 'dotnet new --install' is deprecated. Use 'dotnet new install' instead.
+For more information, run: 
+   dotnet new install -h
+
+The following template packages will be installed:
+   Microsoft
+
