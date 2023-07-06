@@ -14,9 +14,9 @@ function AuthorTable({ authors }) {
                 setSelectedIndex(index)
             }}>
                 <td>{index + 1}</td>
-                <td>{author.fullname}</td>
+                <td>{author.name}</td>
                 <td>{author.bio}</td>
-                <td>{author.numberOfBooks}</td>
+                <td>{author.nrOfBooks}</td>
                 <td>{author.createdBy}</td>
                 <td>{author.createdAt}</td>
             </tr>);

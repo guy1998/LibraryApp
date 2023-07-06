@@ -11,6 +11,6 @@ public class Book{
     public DateTime createdAt{get; set;}
     public string createdBy{get; set;}
     public Author author{get; set;}
-    public Category[] categories{get; set;}
+    public string[] categories{get; set;}
 
 }
