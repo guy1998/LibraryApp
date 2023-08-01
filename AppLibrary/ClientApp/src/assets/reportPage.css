@@ -1,0 +1,6 @@
+.reportContainer{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-top: 8vh;
+}

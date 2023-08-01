@@ -1,0 +1,11 @@
+﻿.plusContainer{
+    height: 12vw;
+    width:12vw;
+    border-radius: 50%;
+    background-image: url("../images/whitePlus.png");
+    background-size: 7vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: powderblue;
+    margin: 4vh auto;
+}

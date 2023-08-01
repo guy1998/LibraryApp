@@ -1,0 +1,39 @@
+.requiredStar{
+    color: red;
+}
+
+.addAuthorForm{
+    width: 30vw;
+    height: 75vh;
+    background-color: white;
+    margin: 10vh 0 0 2vw;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 5vh 0 0 2.5vw;
+}
+
+.addAuthorForm .form-floating{
+    width: 25vw
+}
+
+.addAuthorForm h2{
+    text-align: center;
+    width: 25vw;
+}
+
+.addAuthorForm .button{
+    margin-left: 2.5vw;
+    margin-top: 5vh;
+    background-color: white;
+    border: 3px solid skyblue;
+    color: skyblue;
+    font-weight: bold;
+    width: 20vw;
+    transition: all ease-in-out 0.3s;
+}
+
+.addAuthorForm .button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: skyblue;
+}

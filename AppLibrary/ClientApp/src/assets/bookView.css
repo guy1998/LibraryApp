@@ -1,0 +1,135 @@
+.bookCard{
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 15vw;
+    height: 38vh;
+    padding: 2vh 1vw;
+    margin: 2.5vh 2vw 2.5vh 2vw;
+    transition: all ease-in-out 0.2s;
+}
+
+.bookCard{
+    --animation-sth: none;
+}
+
+.bookCard:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.scrollable:hover{
+    --animation-sth: scroll-left;
+}
+
+.bookImg{
+    width: 13vw;
+    height: 26vh;
+    border-radius: 5px;
+}
+
+.bookCard h5, .bookCard h6{
+    text-align: center;
+}
+
+.titleContainer{
+    width: 13vw;
+    overflow: hidden;
+}
+
+.bookCard h5{
+    animation: var(--animation-sth) 7s linear infinite;
+    white-space: nowrap;
+}
+
+.bookCard h6{
+    font-weight: normal;
+    font-size: 8pt;
+}
+
+@keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    
+    100% {
+      transform: translateX(-160%);
+    }
+  }
+
+.bookDivision{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+}
+
+.catalogue{
+    margin-top: 10vh;
+}
+
+.categoryTitle{
+    margin-left: 4vw;
+    margin-bottom: -1vh;
+    color: white;
+}
+
+.toolBar{
+    height: 91vh;
+    background-color: skyblue;
+    position: absolute;
+    top: 9vh;
+    left:97vw;
+    width: 3vw;
+}
+
+.toolButtons{
+    list-style-type: none;
+    margin-left: -2.5vw;
+    margin-top: 4vh;
+}
+
+.toolOptions{
+    width: 3vw;
+    height: 5vh;
+}
+
+.toolOptions:hover{
+    cursor: pointer;
+    background-color: powderblue;
+}
+
+#addBook{
+    background-image: url("../images/add.png");
+    background-size: 2.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#note{
+    background-image: url("../images/writing.png");
+    background-size: 2.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#filter{
+    background-image: url("../images/filter-filled-tool-symbol.png");
+    background-size: 2.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#addCat{
+    background-image: url("../images/menu.png");
+    background-size: 2.5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#manage {
+    background-image: url("../images/list.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

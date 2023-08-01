@@ -1,0 +1,12 @@
+/* .appContainer{
+    overflow: auto; 
+} */
+
+.initialpage {
+    background-image: url("../images/books.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}

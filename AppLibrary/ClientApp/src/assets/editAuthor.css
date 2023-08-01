@@ -1,0 +1,56 @@
+.editAuthorForm{
+    margin: 3vh 0 0 3vw;
+    align-items: center;
+    width: 60vw;
+}
+
+.editAuthorForm input{
+    width: 27vw;
+    height: 5vh;
+    margin-right: 1vw;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 0.5vw;
+}
+
+.editAuthorForm input:focus{
+    outline: none;
+    box-shadow: 0 0 10px 2px skyblue;
+}
+
+.editAuthorForm label{
+    margin-bottom: 1vh;
+}
+
+.saveButton{
+    background-color: rgb(72, 201, 72);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 4.1vh 0 0 0;
+    border-radius: 7px;
+    background-image: url("../images/diskette.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.saveButton:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.editBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+#saveBtn:disabled{
+    background-color: gray;
+}
+
+#saveBtn:disabled:hover{
+    transform: scale(0);
+}

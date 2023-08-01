@@ -1,0 +1,29 @@
+.customArea{
+    min-height: 100vh;
+}
+
+.saveBtn{
+    border: none;
+    border-radius: 10px;
+    width: 20vw;
+    height: 5vh;
+    background-color: skyblue;
+    background-image: url("../images/diskette.png");
+    background-size: 20px;
+    background-position: 38%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.saveBtn:hover{
+    cursor: pointer;
+    background-color: powderblue;
+}
+
+.saveBtn:disabled{
+    background-color: gray;
+}
+
+.saveBtn:disabled:hover{
+    cursor: auto;
+}

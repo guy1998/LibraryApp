@@ -1,0 +1,62 @@
+.categoryForm{
+    width: 40vw;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: skyblue;
+    background-image: url("../images/categoryBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.categoryForm select{
+    width: 30vw;
+    height: 7vh;
+    font-size: 12pt;
+    color: skyblue;
+}
+
+.addCategoryButton{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    width: 20vw;
+    height: 7vh;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: url("../images/menu.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding-left: 2vw;
+}
+
+.addCategoryButton:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+
+
+.addCategoryMainField{
+    background-color: white;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 35vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 20px;
+    margin: 4vh auto;
+}
+
+.checkBoxDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 8vw;
+}

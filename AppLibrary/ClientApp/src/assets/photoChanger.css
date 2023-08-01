@@ -1,0 +1,42 @@
+.changerContent{
+    width: 40vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.changerContent .imageContent, .changerContent img{
+    height: 50vh;
+    width: 35vw;
+    margin: 2vh auto;
+    border-radius: 15px;
+}
+
+.changerContent input {
+    display: none;
+}
+
+.changerContent label{
+    width: 35vw;
+    height: 5vh;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 2vh auto;
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s;
+}
+
+.changerContent label:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    background-image: url("../images/photo-camera.png");
+}

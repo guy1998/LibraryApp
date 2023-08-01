@@ -1,0 +1,46 @@
+﻿.notificationBox {
+    width: 30vw;
+    height: 17vh;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 20px;
+    padding: 1vh 2vw;
+    position: absolute;
+    top: 80vh;
+    left: 65vw;
+    animation-name: slide-in;
+    animation-duration: 1s;
+    transition: all ease-in-out;
+    z-index: 3;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        top: 100vh;
+    }
+
+    100% {
+        top: 80vh;
+        opacity: 0.7;
+    }
+}
+
+.notificationHeader{
+    display: flex;
+}
+
+.notificationBox img{
+    width: 2vw;
+    height: 2vw;
+    margin-right: 1vw;
+}
+
+.positiveResponse{
+    color: green;
+}
+
+.negativeResponse{
+    color: red;
+}
+

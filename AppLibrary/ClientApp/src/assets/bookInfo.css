@@ -1,0 +1,106 @@
+﻿.leftDivision{
+    width: 30vw;
+    height: 95.5vh;
+    /* border-right: 4px solid white; */
+    background-color:   transparent;
+}
+
+.mainFieldBookInfo {
+    display: flex;
+    height: 95.5vh;
+    width: 97vw;
+    margin-top: 9vh;
+    background-image: url("../images/full.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftDivision img{
+    width: 25vw;
+    height: 60vh;
+    margin: 3vh 2.5vw;
+    border: 5px white solid;
+}
+
+.buttonBox{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 0 auto;
+}
+
+    .buttonBox button {
+        height: 7vh;
+        margin-bottom: 1vh;
+        border: none;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 25%;
+        transition: all ease-in-out 0.1s;
+        color: white;
+    }
+
+.changePicture {
+    background-color: black;
+    background-image: url("../images/camera.png");
+}
+
+.buttonBox button:hover{
+    border: 4px solid white;
+}
+
+.deleteBook {
+    background-color: red;
+    background-image: url("../images/bin.png");
+}
+
+.goBackCatalogue {
+    width: 100%;
+    background-color: blue;
+    background-image: url("../images/left-arrow-in-circular-button-black-symbol.png");
+}
+
+.rightDivision{
+    width: 67vw;
+
+}
+
+.innerRight{
+    margin: auto;
+    margin-top: 5vh;
+    width: 55vw;
+    height: 90vh;
+}
+
+.innerRight h5 {
+    margin-top: 3vh;
+}
+
+.bookTitle{
+    font-size: 4vw;
+    color: black;
+}
+
+.innerRight p{
+    min-height: 40vh;
+    max-height: 40vh;
+    overflow: auto;
+}
+
+.editBook{
+    background-color: rgb(245, 73, 236);
+    color: white;
+    border: none;
+    width: 55vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-image: url("../images/editing.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.editBook:hover{
+    cursor: pointer;
+    background-color: rgb(247, 137, 241);
+}

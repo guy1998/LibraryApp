@@ -1,0 +1,137 @@
+.bookForm{
+    width: 70vw;
+    height: 85vh;
+    background-color: white;
+    color: skyblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/categoryBg.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.addFormHeader{
+    color: skyblue;
+}
+
+.mainFieldForm{
+    display: flex;
+    margin: 4vh 0 8vh 0;
+    padding-left: 2vw;
+    height: 50vh;
+    width: 65vw;
+    overflow-y: auto;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.leftSideForm{
+    margin-right: 1vw;
+}
+
+.bookForm select, .photoUploader{
+    width: 30vw;
+    font-size: 12pt;
+    color: skyblue;
+    height: 9vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.bookForm input[type="file"]{
+    display: none;
+}
+
+.photoUploader{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.photoUploader .iconic{
+    width: 4vw;
+    background-color: skyblue;
+    height: 9vh;
+    margin: 0;
+    border-radius: 5px;
+    background-image: url("../images/camera.png");
+    background-position: center;
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
+.photoUploader:hover{
+    cursor: pointer;
+}
+
+.photoUploader p{
+    margin: auto 1vh;
+}
+
+.categoryBox .categorySelect{
+    width: 30vw;
+    margin-right: 1vw;
+    margin-top: 0;
+}
+
+.addBookButton{
+    background-color: skyblue;
+    color: white;
+    border: none;
+    width: 20vw;
+    height: 7vh;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: url("../images/add.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    padding-left: 2vw;
+}
+
+.addBookButton:hover{
+    cursor: pointer;
+    background-color: powderblue;
+}
+
+.chosenCategories{
+    max-height: 7vh;
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin-bottom: 4vh;
+}
+
+.categorySlate{
+    background-color: whitesmoke;
+    max-width: 15vw;
+    height: 4vh;
+    border-radius: 10px;
+    display: flex;
+    padding: 0 1vw;
+    margin-right: 0.3vw;
+    margin-bottom: 1vh;
+}
+
+.categorySlate h6{
+    max-width: 7vw;
+}
+
+.categorySlate button{
+    margin-left: 0.3vw;
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-image: url("../images/blackX.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+    margin-top: .6vh;
+    background-color: whitesmoke;
+}
